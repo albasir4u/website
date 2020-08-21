@@ -406,6 +406,235 @@ body {
   </figure>
 </div>
 
+<!--                                 End of CONCEPT Variable                                    -->
+
+<h2>Main Method</h2>
+
+<p>Memory Location to <u>store</u> 'values'. Variables used to Store Data Container for VALUE
+</p>
+<button class="collapsible">Defination</button>
+<div class="content">
+
+<!-- Tab Defination -->
+<h2>Tabs</h2>
+<p>Click on the buttons inside the tabbed menu:</p>
+
+<div class="tab">
+  <button class="tablinks" onclick="openPL(event, 'py')">Python</button>
+  <button class="tablinks" onclick="openPL(event, 'js')">JavaScript</button>
+  <button class="tablinks" onclick="openPL(event, 'ts')">TypeScript</button>
+  <button class="tablinks" onclick="openPL(event, 'sc')">Scala</button>
+  <button class="tablinks" onclick="openPL(event, 'ja')">Java</button>
+
+</div>
+
+<!--                                 JAVASCRIPT LANGUAGE SPECIFICS                                       --> 
+
+<div id="js" class="tabcontent">
+  <h3>JavaScript</h3>
+  <figure class="highlight">
+  	<pre>
+    	<code class="language-python" data-lang="python">
+          def main():
+
+
+  		</code>
+     </pre>
+  </figure>
+
+</div>
+
+<!--                                 TYPESCRIPT LANGUAGE SPECIFICS                                       --> 
+
+<div id="ts" class="tabcontent">
+  <h3>TypeScript</h3>
+  <pre>
+  	<code>
+      def main():
+
+
+  	</code>
+  </pre> 
+</div>
+
+<!--                                 JAVA LANGUAGE SPECIFICS                                       --> 
+
+<div id="ja" class="tabcontent">
+  <h3>Java</h3>
+  <pre>
+  	<code>
+      public static void main(String[] args){}
+
+
+  	</code>
+  </pre> 
+</div>
+
+<!--                                 SCALA LANGUAGE SPECIFICS                                       --> 
+
+<div id="sc" class="tabcontent">
+  <h3>Scala</h3>
+  <pre>
+  	<code>
+      def main(args: Array[String]): Unit = {}
+
+
+  	</code>
+  </pre> 
+</div>
+
+<!--                                 PYTHON LANGUAGE SPECIFICS                                       --> 
+
+<div id="py" class="tabcontent">
+  <h3>Python</h3>
+  <pre>
+  	<code>
+      def main():
+
+
+  	</code>
+  </pre> 
+</div>
+
+<!-- End of Defination --> 
+
+
+</div>
+
+<p>Examples :</p>
+
+<!--                                 JAVA LANGUAGE SPECIFICS                                         --> 
+<button class="collapsible">Java</button>
+<div class="content">
+  <figure class="highlight">
+  	<pre>
+    	<code class="language-python" data-lang="python">
+        public class MyFirstClass{
+          public static void main(String[] args){
+            System.out.println("O Allah, please make me strong in Technical");
+          }
+        }
+        
+        $javac MyFirstClass.java
+        $java -Xmx128M -Xms16M MyFirstClass.class
+        
+        public class myfirst{
+          public static void main(String args[]){
+            int x=1;
+            int y=100;
+            int z= x+y;
+            System.out.println("Count of "+z);
+          }
+        }
+        
+        
+        javac MyFirstClass.java
+        java MyFirstClass
+        java -jar MyFirstClass.jar
+
+  		</code>
+     </pre>
+  </figure>
+</div>
+
+<!--                                 SCALA LANGUAGE SPECIFICS                                         --> 
+
+<button class="collapsible">Scala</button>
+<div class="content">
+  <figure class="highlight">
+  	<pre>
+    	<code class="language-python" data-lang="python">
+          JavaRDD<String> textFile = sc.textFile("hdfs://...");
+          JavaPairRDD<String, Integer> counts = textFile
+              .flatMap(s -> Arrays.asList(s.split(" ")).iterator())
+              .mapToPair(word -> new Tuple2<>(word, 1))
+              .reduceByKey((a, b) -> a + b);
+          counts.saveAsTextFile("hdfs://...");
+
+
+  		</code>
+     </pre>
+  </figure>
+</div>
+
+<!--                                 PYTHON LANGUAGE SPECIFICS                                         --> 
+
+<button class="collapsible">Python</button>
+<div class="content">
+  <figure class="highlight">
+  	<pre>
+    	<code class="language-python" data-lang="python">
+          JavaRDD<String> textFile = sc.textFile("hdfs://...");
+          JavaPairRDD<String, Integer> counts = textFile
+              .flatMap(s -> Arrays.asList(s.split(" ")).iterator())
+              .mapToPair(word -> new Tuple2<>(word, 1))
+              .reduceByKey((a, b) -> a + b);
+          counts.saveAsTextFile("hdfs://...");
+
+
+  		</code>
+     </pre>
+  </figure>
+</div>
+
+<!--                                 JAVASCRIPT LANGUAGE SPECIFICS                                       --> 
+
+<button class="collapsible">JavaScript</button>
+<div class="content">
+  <figure class="highlight">
+  	<pre>
+    	<code class="language-python" data-lang="python">
+        <!-- index.html
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <title>Document</title>
+        </head>
+        <body>
+          <h1> This is begining of JAVA Script </h1>
+          <script src="index.js"> </script>
+        </body>
+        </html>
+      index.js
+        var date = new Date()
+       
+        document.body.innerHTML = "<h1> This is " + date.getMonth() +" Month of the Year </h1>"
+        
+        console.log('This is running in web browser');
+        
+      PS C:\Users\ahamba01\Google Drive\Work\Git Local\LearnJavaScript> node index.js
+
+         -->
+  		</code>
+     </pre>
+  </figure>
+</div>
+
+<!--                                 TYPESCRIPT LANGUAGE SPECIFICS                                      --> 
+
+<button class="collapsible">TypeScript</button>
+<div class="content">
+  <figure class="highlight">
+  	<pre>
+    	<code class="language-python" data-lang="python">
+          JavaRDD<String> textFile = sc.textFile("hdfs://...");
+          JavaPairRDD<String, Integer> counts = textFile
+              .flatMap(s -> Arrays.asList(s.split(" ")).iterator())
+              .mapToPair(word -> new Tuple2<>(word, 1))
+              .reduceByKey((a, b) -> a + b);
+          counts.saveAsTextFile("hdfs://...");
+
+
+  		</code>
+     </pre>
+  </figure>
+</div>
+
+<!--                                 End of CONCEPT Variable                                    -->
+
 <div class="footer">
   <h2>LIFE LONG LEARNING</h2>
 </div>

@@ -1,0 +1,20 @@
+{	
+	{
+	"topic_name": "topic",
+	"topic_description" : "topic description",
+	"topic_defination" : {
+							"Python" : "code_standard_python",
+							"JavaScript" : "code_standard_javascript",
+							"TypeScript" : "code_standard_typescript",
+							"Scala" : "code_standard_scala",
+							"Java" : "code_standard_java"
+						  },
+	"topic_example" : {
+						"Python" : "code_python",
+						"JavaScript" : "code_javascript",
+						"TypeScript" : "code_typescript",
+						"Scala" : "code_scala",
+						"Java" : "code_java"
+					  }
+	}
+}

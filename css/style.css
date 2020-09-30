@@ -31,7 +31,21 @@ a:hover{
 {
     width: 1200px;
     margin: 0 auto;
+    padding: 60px 0;
 }
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
 /* Profile
 ------------------------------------*/
 header {
@@ -55,6 +69,7 @@ header {
       text-decoration: none;
       padding: 8px;
       border-radius: 4px;
+      display: inline-block;
     
   }
   
